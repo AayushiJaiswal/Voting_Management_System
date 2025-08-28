@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import "./db.js";
-import { ElectionRouter } from "./routes/electionRoutes.js";
+import { ElectionRouter } from "./routes/ElectionRoutes.js";
 import { AdminRouter } from "./routes/auth.js";
 import { CandidateRouter } from "./routes/candidateRoutes.js";
 import { VoteRouter } from "./routes/voteRoutes.js";
